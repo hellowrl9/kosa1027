@@ -19,8 +19,12 @@ public class CarExample {
 				car.frontLeftTire = new KumhoTire("앞오른쪽 ", 4);
 				break;
 			case 3:
+				System.out.println("뒤왼쪽 HankookTire로 교체");
+				car.backLeftTire = new HankookTire("뒤왼쪽", 14);	
 				break;
 			case 4:
+				System.out.println("뒤오른쪽 KumhoTire로 교체");
+				car.backRightTire = new KumhoTire("뒤오른쪽", 17);
 				break;
 			}
 		}
